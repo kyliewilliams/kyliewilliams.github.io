@@ -1,0 +1,47 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+#navigationBar {
+    background-color: #eeeeee;
+    height: 50px;
+}
+#navigationBar a {
+    color: black;
+}
+#homePage {
+    background-color: #ebcece;
+}
+#aboutMe {
+    background-color: #000000;
+    color: white;  
+}
+#infoTech {
+    background-color: #f0eff1
+}
+#learningAreas {
+    background-color: #b38cd0;
+    color: white
+}
+#learningAreas .subject {
+    width: 100px;
+}
+#learningAreas .subject p {
+    color: black;
+    text-align: center;
+}
+#learningAreas .subject img {
+    width: 100px
+}
+#coCurricular {
+    background-color: #02c7d1;
+    color: white;
+}    
+#coCurricular img {
+    width: 200px;
+}
+#classroomIdeas {
+    background-color: #f0ffff
+}
+#classroomIdeas img {
+    width: 200px
+}
