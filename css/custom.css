@@ -3,10 +3,21 @@ body {
 }
 #navigationBar {
     background-color: #eeeeee;
-    height: 50px;
 }
 #navigationBar a {
     color: black;
+}
+#navigationBar a:hover {
+    text-decoration: none;
+    color: #cccccc;
+}
+#navigationBar .col {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section h3 {
+    padding-top: 20px;
 }
 #homePage {
     background-color: #ebcece;
@@ -16,14 +27,22 @@ body {
     color: white;  
 }
 #infoTech {
-    background-color: #f0eff1
+    background-color: #f0eff1;
+    text-align: center;
 }
 #learningAreas {
     background-color: #b38cd0;
     color: white
 }
+#learningAreas .subjects {
+    width: 310px;
+    margin: 0 auto; /* center the subjects */
+}    
 #learningAreas .subject {
+    display: inline-block;
     width: 100px;
+    height: 300px;
+    vertical-align: top;
 }
 #learningAreas .subject p {
     color: black;
@@ -44,4 +63,12 @@ body {
 }
 #classroomIdeas img {
     width: 200px
+}
+.footer {
+    text-align: center;
+}
+
+#classroomIdeas .idea {
+    width: 100px;
+    display: inline-block;
 }
