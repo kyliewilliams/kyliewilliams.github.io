@@ -1,8 +1,12 @@
 body {
     font-family: 'Nunito', sans-serif;
 }
+
 #navigationBar {
     background-color: #eeeeee;
+    position: fixed;
+    height: 50px;
+    width: 100%;
 }
 #navigationBar a {
     color: black;
@@ -16,20 +20,39 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .section h3 {
     padding-top: 20px;
 }
+
+#pageContent {
+    padding-top: 50px;
+}
+
 #homePage {
     background-color: #ebcece;
 }
+#homePage .container {
+    text-align: center;
+}
+#homePage img {
+    padding: 50px 50px 0px 50px;
+}
+
 #aboutMe {
     background-color: #000000;
     color: white;  
+    text-align: left;
 }
+#aboutMe img {
+    float: right;
+}
+
 #infoTech {
     background-color: #f0eff1;
     text-align: center;
 }
+
 #learningAreas {
     background-color: #b38cd0;
     color: white
@@ -51,6 +74,7 @@ body {
 #learningAreas .subject img {
     width: 100px
 }
+
 #coCurricular {
     background-color: #02c7d1;
     color: white;
@@ -61,14 +85,20 @@ body {
 #classroomIdeas {
     background-color: #f0ffff
 }
-#classroomIdeas img {
+#classroomIdeas .col img {
     width: 200px
-}
-.footer {
-    text-align: center;
 }
 
 #classroomIdeas .idea {
     width: 100px;
     display: inline-block;
+}
+
+.footer {
+    background: #f0ffff url("images/hands.png") no-repeat bottom center;
+    background-image: url("images/hands.png");
+}
+
+.footer img {
+    width: 100%;
 }
