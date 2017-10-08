@@ -44,6 +44,9 @@ body {
 #homePage img {
     padding: 50px 50px 0px 50px;
 }
+#homePage .keyboard-image {
+    text-align: left;
+}
 
 #aboutMe {
     background-color: #000000;
@@ -92,6 +95,7 @@ body {
 #coCurricular {
     background-color: #01afb7;
     color: white;
+    padding-bottom: 0px;
 }   
 #coCurricular h3 {
     text-align: center;
@@ -107,23 +111,28 @@ body {
 }
 .ccitem p {
     padding-bottom: 20px;
+    margin-bottom: 0px;
 }
 #ccCoding {
 }
 #ccCoding img {
     float: left;
+    margin-left: 0px;
 }
 #ccBasketball {
     background-color: #02bbc5;
 }
 #ccBasketball img {
     float: right;
+    margin-right: 0px;
 }
 #ccDrama {
-    background-color: #02c7d1
+    background-color: #02c7d1;
+    padding-bottom: 50px;
 }
 #ccDrama img {
     float: left;
+    margin-left: 0px;
 }
 #classroomIdeas {
     background-color: #f0ffff;
