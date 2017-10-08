@@ -1,7 +1,6 @@
 body {
     font-family: 'Nunito', sans-serif;
 }
-
 #navigationBar {
     background-color: #eeeeee;
     position: fixed;
@@ -37,6 +36,7 @@ body {
 
 #homePage {
     background-color: #ebcece;
+    padding-bottom: 80px;    
 }
 #homePage .container {
     text-align: center;
@@ -53,19 +53,34 @@ body {
     color: white;  
     text-align: left;
 }
+#aboutMe a {
+    color: #eacdcf;
+}
+#aboutMe a:hover {
+    color: #cc999c;
+}
 #aboutMe p {
     text-align: justify;    
 }
 #aboutMe .mephoto {
     margin-top: -100px;
+    float: left;
+    padding: 0px 5px 2px 0px
 }
-
+#aboutMe .cvit {
+    float: right;
+    padding: 20px 0px 20px 20px;
+}
 #infoTech {
     background-color: #f0eff1;
     text-align: center;
 }
 #infoTech img {
     margin-bottom: -100px;
+}
+#infoTech .btn-primary {
+    background-color: #41339c;
+    border-color: #41339c;
 }
 
 #learningAreas {
@@ -92,8 +107,17 @@ body {
     padding: 10px;
 }
 #learningAreas .subject p {
+    text-align: center;
+}
+#learningAreas .subject a:hover {
+    text-decoration: none;
+}
+#learningAreas .subject a {
     color: black;
     text-align: center;
+}
+#learningAreas .subject a:hover {
+    color: #999999;
 }
 
 #coCurricular {
@@ -116,8 +140,6 @@ body {
 .ccitem p {
     padding-bottom: 20px;
     margin-bottom: 0px;
-}
-#ccCoding {
 }
 #ccCoding img {
     float: left;
@@ -150,7 +172,13 @@ body {
 #classroomIdeas .col {
     text-align: center;
 }
-
+#classroomIdeas a {
+    color: #000000;
+}
+#classroomIdeas a:hover {
+    color: #999999;
+    text-decoration: none;
+}
 #classroomIdeas .idea {
     width: 100px;
     display: inline-block;
