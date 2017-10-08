@@ -82,6 +82,10 @@ body {
     background-color: #41339c;
     border-color: #41339c;
 }
+#infoTech .btn-primary:hover {
+    background-color: #8478d3;
+    border-color: #8478d3;
+}
 
 #learningAreas {
     background: #b38cd0 url('../images/wallpaper.png');
