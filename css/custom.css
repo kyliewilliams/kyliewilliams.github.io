@@ -53,8 +53,11 @@ body {
     color: white;  
     text-align: left;
 }
-#aboutMe img {
-    float: right;
+#aboutMe p {
+    text-align: justify;    
+}
+#aboutMe .mephoto {
+    margin-top: -100px;
 }
 
 #infoTech {
@@ -66,8 +69,9 @@ body {
 }
 
 #learningAreas {
-    background-color: #b38cd0;
-    color: white
+    background: #b38cd0 url('../images/wallpaper.png');
+    background-size: 100% 100%;
+    color: white;
 }
 #learningAreas h3 {
     text-align: center;
@@ -85,7 +89,7 @@ body {
     width: 120px;
     height: 180px;
     vertical-align: top;
-    padding: 10px
+    padding: 10px;
 }
 #learningAreas .subject p {
     color: black;
