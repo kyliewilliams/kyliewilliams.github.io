@@ -7,6 +7,7 @@ body {
     position: fixed;
     height: 50px;
     width: 100%;
+    z-index: 999;
 }
 #navigationBar a {
     color: black;
@@ -69,32 +70,60 @@ body {
     text-align: center;
 }
 #learningAreas .subjects {
-    width: 410px;
+    width: 470px;
     margin: 0 auto;
+    margin-top: 20px;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 50px;
     border-radius: 25px;
 }    
 #learningAreas .subject {
     display: inline-block;
-    width: 100px;
-    height: 200px;
+    width: 120px;
+    height: 180px;
     vertical-align: top;
+    padding: 10px
 }
 #learningAreas .subject p {
     color: black;
     text-align: center;
 }
-#learningAreas .subject img {
-    width: 100px
-}
 
 #coCurricular {
-    background-color: #02c7d1;
+    background-color: #01afb7;
     color: white;
-}    
-#coCurricular img {
-    width: 200px;
+}   
+#coCurricular h3 {
+    text-align: center;
+}
+.ccitem img {
+    margin: 20px;
+}
+.ccitem {
+    clear: both;
+}
+.ccitem h4 {
+    padding-top: 20px;
+}
+.ccitem p {
+    padding-bottom: 20px;
+}
+#ccCoding {
+}
+#ccCoding img {
+    float: left;
+}
+#ccBasketball {
+    background-color: #02bbc5;
+}
+#ccBasketball img {
+    float: right;
+}
+#ccDrama {
+    background-color: #02c7d1
+}
+#ccDrama img {
+    float: left;
 }
 #classroomIdeas {
     background-color: #f0ffff;
@@ -102,11 +131,11 @@ body {
 #classroomIdeas h3 {
     text-align: center;
 }
+#classroomIdeas p {
+    margin-top: 20px;
+}
 #classroomIdeas .col {
     text-align: center;
-}
-#classroomIdeas .col img {
-    width: 200px
 }
 
 #classroomIdeas .idea {
@@ -115,9 +144,16 @@ body {
 }
 .footer {
     background-color: #f0ffff;
-    height: 400px;
+    height: 276px;
+    background: #f0ffff url('../images/footer/hands_800.png') no-repeat bottom center;
+    padding-top: 240px;
+}
+.footer-content {
+    line-height: 36px;    
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
     text-align: center;
 }
-.footer img {
-    height: 400px;
+.footer a {
+    color: #ffffff;
 }
